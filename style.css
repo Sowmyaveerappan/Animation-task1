@@ -1,0 +1,37 @@
+.box{
+
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes move{
+    0%{
+        margin-left: 0;
+        margin-top: 0;
+
+    }
+    25%{
+        margin-left: 0;
+        margin-top: 200px;
+        background-color: cadetblue;
+    }
+    50%{
+        margin-left: 200px;
+        margin-top: 200px;
+        background-color: rgb(211, 237, 14);
+
+    }
+    75%{
+        margin-left:200px ;
+        margin-top:0 ;
+        background-color: blue;
+    }
+    100%{
+        margin-left: 0;
+        margin-top: 0;
+        background-color: rgb(246, 10, 49);
+    }
+}
